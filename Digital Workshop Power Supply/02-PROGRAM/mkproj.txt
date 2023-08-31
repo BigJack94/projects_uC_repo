@@ -1,0 +1,8 @@
+[project]
+mcu=atmega32
+f_cpu=8000000
+[MkVersion]
+BuildVersion=1.0.0
+BuildNumber=650
+BuildTime=21:08:29
+BuildDate=28.08.2023

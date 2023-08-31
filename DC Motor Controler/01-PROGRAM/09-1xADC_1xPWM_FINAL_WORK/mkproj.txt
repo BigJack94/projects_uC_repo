@@ -1,0 +1,8 @@
+[project]
+mcu=attiny13a
+f_cpu=9600000
+[MkVersion]
+BuildVersion=1.0.0
+BuildNumber=340
+BuildTime=21:34:32
+BuildDate=28.08.2023

@@ -1,0 +1,519 @@
+Archive member included because of file (symbol)
+
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_mulsi3.o)
+                              Release/main.o (__mulsi3)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o)
+                              Release/main.o (__divmodsi4)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_negsi2.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o) (__negsi2)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o (exit)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+                              Release/main.o (__do_copy_data)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+                              Release/main.o (__do_clear_bss)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_udivmodsi4.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+ .text          0x00000000        0x0 Release/main.o
+ .data          0x00000000        0x0 Release/main.o
+ .bss           0x00000000        0x0 Release/main.o
+ .text.pwm_write
+                0x00000000        0x4 Release/main.o
+ .text.delay_us
+                0x00000000       0x1a Release/main.o
+ .text.norm     0x00000000       0x1c Release/main.o
+ .text.map      0x00000000       0x8e Release/main.o
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_mulsi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_negsi2.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_negsi2.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_negsi2.o)
+ .text.libgcc   0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_negsi2.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_udivmodsi4.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+Address of section .text set to 0x0
+LOAD Release/main.o
+START GROUP
+LOAD c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a
+LOAD c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack\libm.a
+LOAD c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack\libc.a
+LOAD c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack\libattiny13a.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x334
+ *(.vectors)
+ .vectors       0x00000000       0x14 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000014                . = ALIGN (0x2)
+                0x00000014                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000014        0x0 linker stubs
+ *(.trampolines*)
+                0x00000014                __trampolines_end = .
+ *(.progmem*)
+                0x00000014                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000014                __ctors_start = .
+ *(.ctors)
+                0x00000014                __ctors_end = .
+                0x00000014                __dtors_start = .
+ *(.dtors)
+                0x00000014                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000014        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+                0x00000014                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000014        0x8 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000001c       0x16 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_copy_data.o)
+                0x0000001c                __do_copy_data
+ .init4         0x00000032       0x10 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+                0x00000032                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000042        0x4 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+ *(.init9)
+ *(.text)
+ .text          0x00000046        0x2 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+                0x00000046                __vector_1
+                0x00000046                __bad_interrupt
+                0x00000046                __vector_6
+                0x00000046                __vector_3
+                0x00000046                __vector_7
+                0x00000046                __vector_5
+                0x00000046                __vector_4
+                0x00000046                __vector_9
+                0x00000046                __vector_2
+                0x00000046                __vector_8
+                0x00000048                . = ALIGN (0x2)
+ *(.text.*)
+ .text.adc_P    0x00000048       0x14 Release/main.o
+                0x00000048                adc_P
+ .text.adc_setup
+                0x0000005c       0x10 Release/main.o
+                0x0000005c                adc_setup
+ .text.pwm_setup
+                0x0000006c       0x16 Release/main.o
+                0x0000006c                pwm_setup
+ .text.startup.main
+                0x00000082      0x200 Release/main.o
+                0x00000082                main
+ .text.libgcc.mul
+                0x00000282       0x32 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_mulsi3.o)
+                0x00000282                __mulsi3
+                0x00000286                __mulsi3_helper
+ .text.libgcc.div
+                0x000002b4       0x28 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_divmodsi4.o)
+                0x000002b4                __divmodsi4
+ .text.libgcc.div
+                0x000002dc       0x10 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_negsi2.o)
+                0x000002dc                __negsi2
+ .text.libgcc.div
+                0x000002ec       0x44 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_udivmodsi4.o)
+                0x000002ec                __udivmodsi4
+                0x00000330                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000330        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+                0x00000330                _exit
+                0x00000330                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000330        0x4 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr25/tiny-stack\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000334                _etext = .
+
+.data           0x00800060        0x2 load address 0x00000334
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.SOFT     0x00800060        0x2 Release/main.o
+                0x00800060                SOFT
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800062                . = ALIGN (0x2)
+                0x00800062                _edata = .
+                0x00800062                PROVIDE (__data_end, .)
+
+.bss            0x00800062        0x6
+                0x00800062                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.MODE      0x00800062        0x2 Release/main.o
+                0x00800062                MODE
+ .bss.POT       0x00800064        0x2 Release/main.o
+                0x00800064                POT
+ .bss.PWM       0x00800066        0x2 Release/main.o
+                0x00800066                PWM
+ *(COMMON)
+                0x00800068                PROVIDE (__bss_end, .)
+                0x00000334                __data_load_start = LOADADDR (.data)
+                0x00000336                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800068        0x0
+                0x00800068                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800068                PROVIDE (__noinit_end, .)
+                0x00800068                _end = .
+                0x00800068                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 Release/main.o
+                                 0x31 (size before relaxing)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x2dc
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x2dc c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+
+.debug_abbrev   0x00000000      0x2b6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2b6 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+
+.debug_line     0x00000000       0x1a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x100
+ *(.debug_str)
+ .debug_str     0x00000000      0x100 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25/tiny-stack/crtattiny13a.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(Release/09-1xADC_1xPWM_FINAL_WORK.elf elf32-avr)
+LOAD linker stubs

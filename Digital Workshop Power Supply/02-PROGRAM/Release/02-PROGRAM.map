@@ -1,0 +1,887 @@
+Archive member included because of file (symbol)
+
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o (exit)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              Release/main.o (__do_copy_data)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              Release/lcdpcf8574/lcdpcf8574.o (__do_clear_bss)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              Release/main.o (__subsf3)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                              Release/main.o (__nesf2)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              Release/main.o (__divsf3)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              Release/main.o (__fixunssfsi)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              Release/main.o (__floatunsisf)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              Release/main.o (__mulsf3)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                              Release/main.o (dtostrf)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+                              Release/main.o (__itoa_ncheck)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o) (__utoa_common)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o) (dtoa_prf)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o) (__ftoa_engine)
+c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o) (strrev)
+
+Allocating common symbols
+Common symbol       size              file
+
+conv                0x4               Release/main.o
+pcf8574_pinstatus   0x1               Release/lcdpcf8574/lcdpcf8574.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+ .text          0x00000000        0x0 Release/i2c/twimaster.o
+ .data          0x00000000        0x0 Release/i2c/twimaster.o
+ .bss           0x00000000        0x0 Release/i2c/twimaster.o
+ .text.i2c_start_wait
+                0x00000000       0x3c Release/i2c/twimaster.o
+ .text.i2c_rep_start
+                0x00000000        0x4 Release/i2c/twimaster.o
+ .text.i2c_readAck
+                0x00000000        0xe Release/i2c/twimaster.o
+ .text.i2c_readNak
+                0x00000000        0xe Release/i2c/twimaster.o
+ .text          0x00000000        0x0 Release/lcdpcf8574/lcdpcf8574.o
+ .data          0x00000000        0x0 Release/lcdpcf8574/lcdpcf8574.o
+ .bss           0x00000000        0x0 Release/lcdpcf8574/lcdpcf8574.o
+ .text.lcd_data
+                0x00000000       0x12 Release/lcdpcf8574/lcdpcf8574.o
+ .text.lcd_getxy
+                0x00000000        0x8 Release/lcdpcf8574/lcdpcf8574.o
+ .text.lcd_puts_p
+                0x00000000       0x1e Release/lcdpcf8574/lcdpcf8574.o
+ .text          0x00000000        0x0 Release/pcf8574/pcf8574.o
+ .data          0x00000000        0x0 Release/pcf8574/pcf8574.o
+ .bss           0x00000000        0x0 Release/pcf8574/pcf8574.o
+ .text.pcf8574_getoutput
+                0x00000000        0xe Release/pcf8574/pcf8574.o
+ .text.pcf8574_setoutputpins
+                0x00000000       0x7a Release/pcf8574/pcf8574.o
+ .text.pcf8574_getinput
+                0x00000000       0x22 Release/pcf8574/pcf8574.o
+ .text.pcf8574_getinputpin
+                0x00000000       0x30 Release/pcf8574/pcf8574.o
+ .text          0x00000000        0x0 Release/main.o
+ .data          0x00000000        0x0 Release/main.o
+ .bss           0x00000000        0x0 Release/main.o
+ .text.map      0x00000000       0xba Release/main.o
+ .text.adc_convert_voltage
+                0x00000000       0x40 Release/main.o
+ .bss.r_2       0x00000000        0x1 Release/main.o
+ .bss.r_1       0x00000000        0x1 Release/main.o
+ .bss.led_2_state
+                0x00000000        0x1 Release/main.o
+ .bss.led_1_state
+                0x00000000        0x1 Release/main.o
+ .bss.mode_pot  0x00000000        0x1 Release/main.o
+ .bss.mode_lcd_light
+                0x00000000        0x1 Release/main.o
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .text          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .data          0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .bss           0x00000000        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+Address of section .text set to 0x0
+LOAD Release/i2c/twimaster.o
+LOAD Release/lcdpcf8574/lcdpcf8574.o
+LOAD Release/pcf8574/pcf8574.o
+LOAD Release/main.o
+START GROUP
+LOAD c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libatmega32.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1a82
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data  0x00000054       0xfa c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                0x0000014e                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000014e                __ctors_start = .
+ *(.ctors)
+                0x0000014e                __ctors_end = .
+                0x0000014e                __dtors_start = .
+ *(.dtors)
+                0x0000014e                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000014e        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x0000014e                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000014e        0xc c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000015a       0x16 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x0000015a                __do_copy_data
+ .init4         0x00000170       0x10 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000170                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000180        0x8 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+ *(.init9)
+ *(.text)
+ .text          0x00000188        0x4 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x00000188                __vector_12
+                0x00000188                __bad_interrupt
+                0x00000188                __vector_6
+                0x00000188                __vector_11
+                0x00000188                __vector_13
+                0x00000188                __vector_17
+                0x00000188                __vector_19
+                0x00000188                __vector_7
+                0x00000188                __vector_5
+                0x00000188                __vector_4
+                0x00000188                __vector_9
+                0x00000188                __vector_15
+                0x00000188                __vector_8
+                0x00000188                __vector_14
+                0x00000188                __vector_10
+                0x00000188                __vector_16
+                0x00000188                __vector_18
+                0x00000188                __vector_20
+                0x0000018c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.i2c_init
+                0x0000018c        0x8 Release/i2c/twimaster.o
+                0x0000018c                i2c_init
+ .text.i2c_start
+                0x00000194       0x36 Release/i2c/twimaster.o
+                0x00000194                i2c_start
+ .text.i2c_stop
+                0x000001ca        0xc Release/i2c/twimaster.o
+                0x000001ca                i2c_stop
+ .text.i2c_write
+                0x000001d6       0x1a Release/i2c/twimaster.o
+                0x000001d6                i2c_write
+ .text.toggle_e
+                0x000001f0       0x12 Release/lcdpcf8574/lcdpcf8574.o
+ .text.lcd_write
+                0x00000202      0x13a Release/lcdpcf8574/lcdpcf8574.o
+ .text.lcd_read.constprop.0
+                0x0000033c       0x6c Release/lcdpcf8574/lcdpcf8574.o
+ .text.lcd_waitbusy
+                0x000003a8       0x14 Release/lcdpcf8574/lcdpcf8574.o
+ .text.lcd_command
+                0x000003bc       0x12 Release/lcdpcf8574/lcdpcf8574.o
+                0x000003bc                lcd_command
+ .text.lcd_gotoxy
+                0x000003ce        0xe Release/lcdpcf8574/lcdpcf8574.o
+                0x000003ce                lcd_gotoxy
+ .text.lcd_clrscr
+                0x000003dc        0x6 Release/lcdpcf8574/lcdpcf8574.o
+                0x000003dc                lcd_clrscr
+ .text.lcd_led  0x000003e2       0x20 Release/lcdpcf8574/lcdpcf8574.o
+                0x000003e2                lcd_led
+ .text.lcd_home
+                0x00000402        0x6 Release/lcdpcf8574/lcdpcf8574.o
+                0x00000402                lcd_home
+ .text.lcd_putc
+                0x00000408       0x42 Release/lcdpcf8574/lcdpcf8574.o
+                0x00000408                lcd_putc
+ .text.lcd_puts
+                0x0000044a       0x18 Release/lcdpcf8574/lcdpcf8574.o
+                0x0000044a                lcd_puts
+ .text.lcd_init
+                0x00000462       0xa2 Release/lcdpcf8574/lcdpcf8574.o
+                0x00000462                lcd_init
+ .text.pcf8574_init
+                0x00000504       0x12 Release/pcf8574/pcf8574.o
+                0x00000504                pcf8574_init
+ .text.pcf8574_getoutputpin
+                0x00000516       0x24 Release/pcf8574/pcf8574.o
+                0x00000516                pcf8574_getoutputpin
+ .text.pcf8574_setoutput
+                0x0000053a       0x26 Release/pcf8574/pcf8574.o
+                0x0000053a                pcf8574_setoutput
+ .text.pcf8574_setoutputpin
+                0x00000560       0x48 Release/pcf8574/pcf8574.o
+                0x00000560                pcf8574_setoutputpin
+ .text.pcf8574_setoutputpinhigh
+                0x000005a8        0x6 Release/pcf8574/pcf8574.o
+                0x000005a8                pcf8574_setoutputpinhigh
+ .text.pcf8574_setoutputpinlow
+                0x000005ae        0x6 Release/pcf8574/pcf8574.o
+                0x000005ae                pcf8574_setoutputpinlow
+ .text.ADC_setup
+                0x000005b4       0x16 Release/main.o
+                0x000005b4                ADC_setup
+ .text.LED_setup
+                0x000005ca       0x1a Release/main.o
+                0x000005ca                LED_setup
+ .text.RELAY_setup
+                0x000005e4        0xa Release/main.o
+                0x000005e4                RELAY_setup
+ .text.adc_channel_pot
+                0x000005ee       0x20 Release/main.o
+                0x000005ee                adc_channel_pot
+ .text.adc_channel_batt
+                0x0000060e       0x10 Release/main.o
+                0x0000060e                adc_channel_batt
+ .text.adc_channel_u1
+                0x0000061e       0x10 Release/main.o
+                0x0000061e                adc_channel_u1
+ .text.adc_channel_u2
+                0x0000062e       0x14 Release/main.o
+                0x0000062e                adc_channel_u2
+ .text.adc_channel_i1
+                0x00000642       0x14 Release/main.o
+                0x00000642                adc_channel_i1
+ .text.adc_channel_i2
+                0x00000656       0x14 Release/main.o
+                0x00000656                adc_channel_i2
+ .text.INT_setup
+                0x0000066a       0x36 Release/main.o
+                0x0000066a                INT_setup
+ .text.__vector_1
+                0x000006a0       0x42 Release/main.o
+                0x000006a0                __vector_1
+ .text.__vector_2
+                0x000006e2       0x44 Release/main.o
+                0x000006e2                __vector_2
+ .text.__vector_3
+                0x00000726       0x68 Release/main.o
+                0x00000726                __vector_3
+ .text.test_led
+                0x0000078e       0x86 Release/main.o
+                0x0000078e                test_led
+ .text.batt_power
+                0x00000814       0x74 Release/main.o
+                0x00000814                batt_power
+ .text.batt_lcd_value
+                0x00000888       0x92 Release/main.o
+                0x00000888                batt_lcd_value
+ .text.pot_val  0x0000091a       0x64 Release/main.o
+                0x0000091a                pot_val
+ .text.pot_lcd  0x0000097e       0xa4 Release/main.o
+                0x0000097e                pot_lcd
+ .text.led_status
+                0x00000a22       0x6a Release/main.o
+                0x00000a22                led_status
+ .text.relay_mode
+                0x00000a8c       0x1e Release/main.o
+                0x00000a8c                relay_mode
+ .text.batt_charge_proces
+                0x00000aaa       0x12 Release/main.o
+                0x00000aaa                batt_charge_proces
+ .text.measure_and_conv_i_u_channels
+                0x00000abc      0x156 Release/main.o
+                0x00000abc                measure_and_conv_i_u_channels
+ .text.alarm_channel
+                0x00000c12       0x5e Release/main.o
+                0x00000c12                alarm_channel
+ .text.total_power
+                0x00000c70       0xd0 Release/main.o
+                0x00000c70                total_power
+ .text.load_resistance
+                0x00000d40      0x13c Release/main.o
+                0x00000d40                load_resistance
+ .text.startup.main
+                0x00000e7c      0x286 Release/main.o
+                0x00000e7c                main
+ .text.avr-libc.fplib
+                0x00001102        0xa c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x00001102                __subsf3
+                0x00001104                __addsf3
+ .text.avr-libc.fplib
+                0x0000110c       0xc0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x00001126                __addsf3x
+ .text.avr-libc.fplib
+                0x000011cc        0x8 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                0x000011cc                __nesf2
+                0x000011cc                __eqsf2
+                0x000011cc                __cmpsf2
+                0x000011cc                __ltsf2
+                0x000011cc                __lesf2
+ .text.avr-libc.fplib
+                0x000011d4        0x4 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x000011d4                __divsf3
+ .text.avr-libc.fplib
+                0x000011d8       0xcc c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x000011ee                __divsf3x
+                0x000011f2                __divsf3_pse
+ .text.avr-libc.fplib
+                0x000012a4       0x58 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x000012a4                __fixunssfsi
+ .text.avr-libc.fplib
+                0x000012fc       0x7a c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x000012fc                __floatunsisf
+                0x00001300                __floatsisf
+ .text.avr-libc.fplib
+                0x00001376       0x48 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                0x00001376                __fp_cmp
+ .text.avr-libc.fplib
+                0x000013be        0xc c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x000013be                __fp_inf
+ .text.avr-libc.fplib
+                0x000013ca        0x6 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x000013ca                __fp_nan
+ .text.avr-libc.fplib
+                0x000013d0        0xe c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x000013d0                __fp_pscA
+ .text.avr-libc.fplib
+                0x000013de        0xe c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x000013de                __fp_pscB
+ .text.avr-libc.fplib
+                0x000013ec       0x22 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x000013ec                __fp_round
+ .text.avr-libc.fplib
+                0x0000140e       0x44 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x0000140e                __fp_split3
+                0x0000141e                __fp_splitA
+ .text.avr-libc.fplib
+                0x00001452        0xe c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x00001452                __fp_zero
+                0x00001454                __fp_szero
+ .text.avr-libc.fplib
+                0x00001460        0x4 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x00001460                __mulsf3
+ .text.avr-libc.fplib
+                0x00001464       0xc2 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00001478                __mulsf3x
+                0x0000147c                __mulsf3_pse
+ .text.avr-libc
+                0x00001526       0x42 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                0x00001526                dtostrf
+ .text.avr-libc
+                0x00001568       0x16 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+                0x00001568                __itoa_ncheck
+ .text.avr-libc
+                0x0000157e       0x34 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                0x0000157e                __utoa_ncheck
+                0x00001580                __utoa_common
+ .text.avr-libc
+                0x000015b2      0x2fc c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+                0x000015b2                dtoa_prf
+ .text.avr-libc
+                0x000018ae      0x1b0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                0x000018ae                __ftoa_engine
+ .text.avr-libc
+                0x00001a5e       0x20 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00001a5e                strrev
+                0x00001a7e                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001a7e        0x0 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00001a7e                _exit
+                0x00001a7e                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001a7e        0x4 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001a82                _etext = .
+
+.data           0x00800060       0x94 load address 0x00001a82
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.i_max_2_value
+                0x00800060        0x4 Release/main.o
+                0x00800060                i_max_2_value
+ .data.i_max_1_value
+                0x00800064        0x4 Release/main.o
+                0x00800064                i_max_1_value
+ .data.ch_ch    0x00800068        0x1 Release/main.o
+                0x00800068                ch_ch
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800069       0x8b Release/main.o
+                                 0x90 (size before relaxing)
+ *(.gnu.linkonce.d*)
+                0x008000f4                . = ALIGN (0x2)
+                0x008000f4                _edata = .
+                0x008000f4                PROVIDE (__data_end, .)
+
+.bss            0x008000f4       0x3f
+                0x008000f4                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.dataport  0x008000f4        0x1 Release/lcdpcf8574/lcdpcf8574.o
+                0x008000f4                dataport
+ .bss.u_pot_value
+                0x008000f5        0x4 Release/main.o
+                0x008000f5                u_pot_value
+ .bss.u_batt_value
+                0x008000f9        0x4 Release/main.o
+                0x008000f9                u_batt_value
+ .bss.r_2_value
+                0x008000fd        0x4 Release/main.o
+                0x008000fd                r_2_value
+ .bss.r_1_value
+                0x00800101        0x4 Release/main.o
+                0x00800101                r_1_value
+ .bss.p_2_value
+                0x00800105        0x4 Release/main.o
+                0x00800105                p_2_value
+ .bss.p_1_value
+                0x00800109        0x4 Release/main.o
+                0x00800109                p_1_value
+ .bss.u_2_value
+                0x0080010d        0x4 Release/main.o
+                0x0080010d                u_2_value
+ .bss.u_1_value
+                0x00800111        0x4 Release/main.o
+                0x00800111                u_1_value
+ .bss.i_2_value
+                0x00800115        0x4 Release/main.o
+                0x00800115                i_2_value
+ .bss.i_1_value
+                0x00800119        0x4 Release/main.o
+                0x00800119                i_1_value
+ .bss.batt_charge
+                0x0080011d        0x1 Release/main.o
+                0x0080011d                batt_charge
+ .bss.i_2       0x0080011e        0x2 Release/main.o
+                0x0080011e                i_2
+ .bss.i_1       0x00800120        0x2 Release/main.o
+                0x00800120                i_1
+ .bss.u_2       0x00800122        0x2 Release/main.o
+                0x00800122                u_2
+ .bss.u_1       0x00800124        0x2 Release/main.o
+                0x00800124                u_1
+ .bss.pot_i     0x00800126        0x2 Release/main.o
+                0x00800126                pot_i
+ .bss.u_batt    0x00800128        0x2 Release/main.o
+                0x00800128                u_batt
+ .bss.p2_mode   0x0080012a        0x1 Release/main.o
+                0x0080012a                p2_mode
+ .bss.p1_mode   0x0080012b        0x1 Release/main.o
+                0x0080012b                p1_mode
+ .bss.old_mode_lcd
+                0x0080012c        0x1 Release/main.o
+                0x0080012c                old_mode_lcd
+ .bss.mode_lcd  0x0080012d        0x1 Release/main.o
+                0x0080012d                mode_lcd
+ *(COMMON)
+ COMMON         0x0080012e        0x1 Release/lcdpcf8574/lcdpcf8574.o
+                0x0080012e                pcf8574_pinstatus
+ COMMON         0x0080012f        0x4 Release/main.o
+                0x0080012f                conv
+                0x00800133                PROVIDE (__bss_end, .)
+                0x00001a82                __data_load_start = LOADADDR (.data)
+                0x00001b16                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800133        0x0
+                0x00800133                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800133                PROVIDE (__noinit_end, .)
+                0x00800133                _end = .
+                0x00800133                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x60
+ *(.comment)
+ .comment       0x00000000       0x30 Release/i2c/twimaster.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 Release/lcdpcf8574/lcdpcf8574.o
+ .comment       0x00000000       0x31 Release/pcf8574/pcf8574.o
+ .comment       0x00000000       0x31 Release/main.o
+ .comment       0x00000030       0x30 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x4e6
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x4e6 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_abbrev   0x00000000      0x4a3
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4a3 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_line     0x00000000       0x1a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x196
+ *(.debug_str)
+ .debug_str     0x00000000      0x196 c:/users/jacek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(Release/02-PROGRAM.elf elf32-avr)
+LOAD linker stubs
