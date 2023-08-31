@@ -1,0 +1,9 @@
+[project]
+mcu=atmega8
+f_cpu=4000000
+programmer=USBASP Clone
+[MkVersion]
+BuildVersion=1.0.0
+BuildNumber=870
+BuildTime=21:39:36
+BuildDate=31.08.2023

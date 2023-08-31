@@ -1,0 +1,8 @@
+[project]
+mcu=atmega16
+f_cpu=16000000
+[MkVersion]
+BuildVersion=1.0.0
+BuildNumber=3
+BuildTime=09:08:04
+BuildDate=2020-07-14

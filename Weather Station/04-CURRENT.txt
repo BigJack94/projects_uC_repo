@@ -1,0 +1,9 @@
+TX [mA]
+idle 25
+transmit 25
+
+RX [mA] 
+LED ON 44
+idle 25
+OLED work 47
+recive 31

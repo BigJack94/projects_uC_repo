@@ -1,0 +1,12 @@
+Weather Station - parameters:
+-based on 2 uC AVR ATmega8
+-2 wireless devices with internal battery
+-transmiter charged by solar panel or USB micro B socket, receiver charged by USB micro B socket
+-sensor BME280 in transmiter
+-status led on receiver and transmiter
+-sleep mode in transmiter supported by external clock oscilator
+-battery level (in tx and rx) measurement
+-OLED display in receiver (with 2 switchable screens)
+-displayed parameters on the receiver: temperature, pressure, humidity, sunshine and battery levels (in 2 switchable screens)
+-rfm69 radio modules for communication between modules
+-auto reset in receiver (if no signal can be found)
