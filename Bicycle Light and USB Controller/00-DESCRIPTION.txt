@@ -1,0 +1,8 @@
+LED lights, USB charger (for phone) and generator (dynamo) controler for bicycle. 
+In program you can charge current and voltage value for your requirements.
+Device oportunities:
+-boost converter (100kHz) to convert li-ion battery to USB phone charger.
+-OLED display (128x32) to show mode (USB, LED, Common, OFF)
+-switch to select mode
+-current in led and usb depending from dynamo and battery state
+-2 current sensor (via low side resistor)
