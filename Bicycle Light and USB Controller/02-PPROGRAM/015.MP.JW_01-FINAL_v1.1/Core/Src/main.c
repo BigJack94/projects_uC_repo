@@ -45,8 +45,10 @@
 #define n_U_USB_converter 3.14f//USB
 //adc and pwm coeficients
 #define i_current_out 350.0f //adc current output after converting
-#define u_voltage_in 0.19f //adc voltage inbut before converting V
+#define u_voltage_in 0.19f //adc voltage input before converting to current V
 #define i_current_add 20.0f //correction factor for adc current measure mA
+#define u_voltage_add 0.2f	//correction factor for adc current measure V
+#define u_voltage_boost_factor 0.1f	//factor to control voltage from step up
 #define i_usb_current_max 2500.0f	//usb max current mA
 #define i_led_current_max 1000.0f	//led max current mA
 #define i_noise 30.0f	//noise current value mA
@@ -54,11 +56,13 @@
 #define u_voltage_bridge_d 0.7f	//voltage losses
 #define u_d_voltage_load 4.0f	//dynamo load voltage
 #define u_low_batt 3.4f	//low battery voltage
-#define u_usb_min_out 4.0f	//min usb voltage output V
-#define u_usb_max_out 5.5f	//max usb voltage output V
-#define i_usb_min_out	10 //minimal usb current output to work mA - to confirm connected device to usb port
-#define usb_pwm_min 20		//min value pwm to boost converter usb %
-#define usb_pwm_max	50  	//max value pwm to boost converter usb %
+#define u_usb_min_out 4.50f	//min usb voltage output V
+#define u_usb_max_out 5.9f	//max usb voltage output V
+#define u_usb_ov_offset 0.5f	//offset to overvoltage in usb
+#define i_usb_min_out	5 //minimal usb current output to work mA - to confirm connected device to usb port
+#define vcc_manage_his	0.2f	//histeresa to vcc manage
+#define usb_pwm_min 1		//min value pwm to boost converter usb %
+#define usb_pwm_max	55  	//max value pwm to boost converter usb %
 //power mode coeficients
 //batt ok dynamo ok
 #define u_batt_ok 3.8f	//batt voltage value ok
@@ -76,13 +80,29 @@
 #define led_power_mode_4 70
 #define usb_power_mode_4 30
 
-
 //others
+#define I_USB_max_1 1000 //USB max current output for mode USB
+#define I_USB_max_2 600 //USB max current output for mode COM
 #define I_LED1_max 700 //led current max mA
+#define LED_max_1 100	//led max power for led mode
+#define LED_max_2 70	//led max power for common mode
 #define mes_size 5	//number adc channels
 #define U_reff 3.27f //ref voltage, uC supply voltage V
 #define res_adc 4096.0f//adc resolution
+#define logn_click_time 3	//time for long click
+#define blink_time 3	//time led blinking
 
+
+/*
+ * >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ * add:
+ * -long push for switch - WORK
+ * -turn off screen - canceled
+ * -blink led mode - added, no tested
+ *
+ * removed:
+ * -low batt alert
+ */
 
 /* USER CODE END PD */
 
@@ -95,13 +115,14 @@
 
 /* USER CODE BEGIN PV */
 //general variables
-uint8_t mode_short = 0; //switch
+uint8_t mode_short = 0; //switch short click
+uint8_t mode_long = 0; //switch long click
 uint8_t mode_vcc_led = 0; //led max power coeffcient
 uint8_t mode_vcc_usb = 0; //usb max power coefficient
 
 //text buffer
-char snum[5];	// OLED
-char OLED_txt [4];	//mode
+char snum[10];	// OLED
+char OLED_txt [6];	//mode
 char E_L_txt[1]; //led error
 char E_B_txt[1]; //usb error
 char ERROR_txt[2];	//led and usb error
@@ -109,7 +130,9 @@ char ERROR_txt[2];	//led and usb error
 uint32_t value_conv[mes_size]; //fresh ADC
 float value_voltage[mes_size]; //after converting ADC
 //timer
-uint8_t timer_counter_1 = 0;	//timer
+uint8_t timer_counter_1 = 0;	//timer errors
+uint8_t timer_counter_2 = 0;	//timer long click
+uint8_t timer_counter_3 = 0;	//timer turn off oled
 
 //USB
 //current
@@ -190,7 +213,7 @@ void adc_read (void)
 	  //USB voltage - OK
 	  value_voltage[1]=(U_reff/res_adc)*value_conv[1];
 	  value_voltage[1]=value_voltage[1]*n_U_USB_converter;
-	  bb_voltage_mes = value_voltage[1];
+	  bb_voltage_mes = value_voltage[1] + u_voltage_add;
 
 	  //LED current - OK
 	  /*measured value
@@ -233,11 +256,11 @@ void USB_charger (void)
 	 //set the voltage in proportion to the current
 	  if(bb_current_set<bb_current_mes)
 	  {
-	  bb_voltage_set=bb_voltage_set-0.01f;
+	  bb_voltage_set=bb_voltage_set-u_voltage_boost_factor;
 	  }
 	  else if(bb_current_set>bb_current_mes)
 	  {
-	  bb_voltage_set=bb_voltage_set+0.01f;
+	  bb_voltage_set=bb_voltage_set+u_voltage_boost_factor;
 	  }
 	  else
 	  {
@@ -245,7 +268,7 @@ void USB_charger (void)
 	  bb_voltage_set = constrain_f(bb_voltage_set, u_usb_min_out, u_usb_max_out);
 
 	  //set pwm
-		if((bb_current_set!=0)&&(bb_error==0)&&(bb_error_critical==0)&&(bb_current_mes>=i_usb_min_out))
+	  if((bb_current_set!=0)&&(bb_error==0)&&(bb_error_critical==0))
 		{
 
 			if(bb_voltage_mes<bb_voltage_set)
@@ -261,14 +284,27 @@ void USB_charger (void)
 
 			}
 			bb_pwm_set = constrain(bb_pwm_set, ((160*usb_pwm_min)/100), ((160*usb_pwm_max)/100));	//set pwm range as additional condition
-		}
 
+				//unplug additional protection
+
+				 if((bb_voltage_mes>=u_usb_max_out)&&(bb_current_mes<=i_usb_min_out))
+				 {
+
+				 bb_pwm_set = 2;
+				 }
+				 else
+				 {
+				 //set pwm
+				bb_pwm_set = bb_pwm_set;
+				 }
+
+		}
 		else
 		{
 			bb_pwm_set = 0;
 		}
 
-	__HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_4, bb_pwm_set); //set pwm
+	 __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_4, bb_pwm_set); //set pwm
 }
 
 //led work
@@ -303,12 +339,12 @@ void LED_work (void)
 void vcc_managment (void)
 {
 
-	if((value_voltage[4]>u_dynamo_ok)&&(value_voltage[3]>u_batt_ok)) //dynamo ok and batt ok
+	if((value_voltage[4]>u_dynamo_ok)&&(value_voltage[3]>u_batt_ok+vcc_manage_his)) //dynamo ok and batt ok
 	{
 		mode_vcc_led=led_power_mode_1;
 		mode_vcc_usb=usb_power_mode_1;
 	}
-	else if ((value_voltage[4]<=u_dynamo_ok)&&(value_voltage[3]>u_batt_ok))	//dynamo nok and batt ok
+	else if ((value_voltage[4]<=u_dynamo_ok)&&(value_voltage[3]>u_batt_ok+vcc_manage_his))	//dynamo nok and batt ok
 	{
 		mode_vcc_led=led_power_mode_2;
 		mode_vcc_usb=usb_power_mode_2;
@@ -318,10 +354,14 @@ void vcc_managment (void)
 		mode_vcc_led=led_power_mode_3;
 		mode_vcc_usb=usb_power_mode_3;
 	}
-	else	//dynamo nok and batt nok
+	else if ((value_voltage[4]<u_dynamo_ok)&&(value_voltage[3]<=u_batt_ok))	//dynamo nok and batt nok
 	{
 		mode_vcc_led=led_power_mode_4;
 		mode_vcc_usb=usb_power_mode_4;
+	}
+	else
+	{
+
 	}
 }
 
@@ -358,10 +398,11 @@ void OLED_main (void)
 	  SSD1306_Puts ("LED[%]: ", &Font_6x8, 1);
 	  itoa(led_power_set,snum,10);
 	  SSD1306_Puts (snum, &Font_6x8, 1);
-	  SSD1306_Puts (" |mA ", &Font_6x8, 1);
-	  itoa(led_power_mes,snum,10);
-	  SSD1306_Puts (snum, &Font_6x8, 1);
-	  SSD1306_Puts ("   ", &Font_6x8, 1);
+	  SSD1306_Puts ("  ", &Font_6x8, 1);
+	  //SSD1306_Puts (" |mA ", &Font_6x8, 1);
+	  //itoa(led_power_mes,snum,10);
+	  //SSD1306_Puts (snum, &Font_6x8, 1);
+	  //SSD1306_Puts ("   ", &Font_6x8, 1);
 
 	  //USB currents
 	  SSD1306_GotoXY (0,24);
@@ -428,7 +469,7 @@ void diagnostic (void)
 		bb_error = 3;	//zwarcie
 		bb_error_critical = 0;
 	}
-	if((bb_current_set!=0)&&(bb_voltage_mes>6.0f))
+	if((bb_current_set!=0)&&(bb_voltage_mes>(u_usb_max_out+u_usb_ov_offset) ))
 	{
 		bb_error = 4;	//zwarcie
 		bb_error_critical = 0;
@@ -452,6 +493,30 @@ void diagnostic (void)
 	ERROR_txt[1]=E_B_txt[0];
 }
 
+//long click fir switch - no tested
+void long_switch (void)
+{
+
+	if (HAL_GPIO_ReadPin(SW_GPIO_Port, SW_Pin)!=1)
+	{
+		if(timer_counter_2>=logn_click_time)
+		{
+			mode_long++;	//add long click interupt
+			mode_short--;	//cancle short click interupt
+			timer_counter_2=0;
+		}
+		else
+		{
+
+		}
+	}
+	else
+	{
+		timer_counter_2=0;
+	}
+
+}
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -469,7 +534,9 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin)
 //timer int 1 s
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 	if (htim->Instance == TIM14) {
-		timer_counter_1++;	//timer
+		timer_counter_1++;	//timer for current control in errors function
+		timer_counter_2++;	//timer for long click switch
+		timer_counter_3++;	//timer for led blink
 	}
 }
 /* USER CODE END 0 */
@@ -538,6 +605,7 @@ int main(void)
 
 	  adc_read(); //adc read and converting
 	  vcc_managment(); //supply managment
+	  //long_switch();	//dlugie wcisniecie
 
 	  //mode selection
 	  if(mode_short==0)
@@ -550,14 +618,14 @@ int main(void)
 	  {
 		  strcpy(OLED_txt,"LED");
 		  bb_current_set = 0;
-		  led_power_set = 100;
+		  led_power_set = LED_max_1;
 		  led_power_set = (led_power_set * mode_vcc_led)/100;
 
 	  }
 	  else if(mode_short==2)
 	  {
 		  strcpy(OLED_txt,"USB");
-		  bb_current_set = 1000;
+		  bb_current_set =  I_USB_max_1;
 		  bb_current_set = (bb_current_set * mode_vcc_usb)/100;
 		  led_power_set = 0;
 
@@ -565,10 +633,25 @@ int main(void)
 	  else if(mode_short==3)
 	  {
 		  strcpy(OLED_txt,"COM");
-		  bb_current_set = 600;
+		  bb_current_set = I_USB_max_2;
 		  bb_current_set = (bb_current_set * mode_vcc_usb)/100;
-		  led_power_set = 70;
+		  led_power_set = LED_max_2;
 		  led_power_set = (led_power_set * mode_vcc_led)/100;
+	  }
+	  else if(mode_short==4)
+	  {
+		  strcpy(OLED_txt,"BLK");
+		  bb_current_set = 0;
+
+		  if(timer_counter_3>blink_time)
+		  {
+		  led_power_set = LED_max_1;
+		  }
+		  if(timer_counter_3>(blink_time*2))
+		  {
+		  led_power_set = 0;
+		  timer_counter_3 = 0;
+		  }
 	  }
 	  else
 	  {
@@ -576,22 +659,6 @@ int main(void)
 	  }
 
 		 OLED_main(); //show
-
-	 //low battery protect
-	  if(value_voltage[3]<u_low_batt)
-	  {
-		  	  //set oled
-			   SSD1306_Clear();
-			   SSD1306_GotoXY (0,0);
-			   //turn off loads
-			  bb_current_set = 0;
-			  led_power_set = 0;
-			  USB_charger(); //usb managment
-			  LED_work();	//led managment
-			  //show info
-			  SSD1306_Puts ("Niski poziom baterii", &Font_6x8, 1);
-			  HAL_Delay(1000);
-	  }
 
 	  	  //regular work
 		  USB_charger(); //usb managment
