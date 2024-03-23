@@ -9,7 +9,5 @@ Device oportunities:
 -uC STM32G030F6P6 on board (older version was Bluepill STM32F103C8T6, oldest without uC)
 
 Future plans:
--new switch function (long click)
 -new screen
 -auto off screen
--new led mode (blink)

@@ -1,0 +1,16 @@
+../Core/Src/main.c:165:6:map	1
+../Core/Src/main.c:169:7:map_f	1
+../Core/Src/main.c:174:6:constrain	3
+../Core/Src/main.c:186:7:constrain_f	3
+../Core/Src/main.c:198:6:adc_read	10
+../Core/Src/main.c:252:6:USB_charger	13
+../Core/Src/main.c:309:6:LED_work	6
+../Core/Src/main.c:337:6:vcc_managment	10
+../Core/Src/main.c:368:6:OLED_main	2
+../Core/Src/main.c:425:6:diagnostic	8
+../Core/Src/main.c:506:6:long_switch	4
+../Core/Src/main.c:545:6:HAL_GPIO_EXTI_Falling_Callback	2
+../Core/Src/main.c:554:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:710:6:SystemClock_Config	3
+../Core/Src/main.c:567:5:main	9
+../Core/Src/main.c:763:6:Error_Handler	1
