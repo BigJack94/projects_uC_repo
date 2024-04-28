@@ -218,7 +218,7 @@ void adc_read (void)
 	   * 0,35A - load current
 	   * 0,19V - pin adc voltage
 	   */
-	  value_voltage[2]=(U_reff/res_adc)*value_conv[2]; //pomiar napiecia z bocznika
+	  value_voltage[2]=(U_reff/res_adc)*value_conv[2]; //voltage from resistor to current measure
 	  value_voltage[2]=map_f(value_voltage[2], 0.0f ,u_voltage_in,0.0f,i_current_out)+i_current_add;
 	  if(value_voltage[2]<i_noise)
 	  {
