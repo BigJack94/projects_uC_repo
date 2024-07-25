@@ -1,0 +1,172 @@
+
+Release/026.MP.JW_01-ATTINY13_v1_WORK.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000126  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .bss          00000005  00800060  00800060  0000019a  2**0
+                  ALLOC
+  2 .comment      00000030  00000000  00000000  0000019a  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  000001cc  2**2
+                  CONTENTS, READONLY
+  4 .debug_info   000002dc  00000000  00000000  00000208  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_abbrev 000002b6  00000000  00000000  000004e4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_line   0000001a  00000000  00000000  0000079a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_str    00000100  00000000  00000000  000007b4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	18 c0       	rjmp	.+48     	; 0x32 <__ctors_end>
+   2:	25 c0       	rjmp	.+74     	; 0x4e <__bad_interrupt>
+   4:	24 c0       	rjmp	.+72     	; 0x4e <__bad_interrupt>
+   6:	23 c0       	rjmp	.+70     	; 0x4e <__bad_interrupt>
+   8:	22 c0       	rjmp	.+68     	; 0x4e <__bad_interrupt>
+   a:	21 c0       	rjmp	.+66     	; 0x4e <__bad_interrupt>
+   c:	20 c0       	rjmp	.+64     	; 0x4e <__bad_interrupt>
+   e:	1f c0       	rjmp	.+62     	; 0x4e <__bad_interrupt>
+  10:	1e c0       	rjmp	.+60     	; 0x4e <__bad_interrupt>
+  12:	1d c0       	rjmp	.+58     	; 0x4e <__bad_interrupt>
+
+00000014 <MkBuildTime>:
+  14:	32 31 3a 31 36 3a 35 30 00                          21:16:50.
+
+0000001d <MkBuildDate>:
+  1d:	32 35 2e 30 37 2e 32 30 32 34 00                    25.07.2024.
+
+00000028 <MkBuildNumber>:
+  28:	36 38 30 00                                         680.
+
+0000002c <MkBuildVersion>:
+  2c:	31 2e 30 2e 30 00                                   1.0.0.
+
+00000032 <__ctors_end>:
+  32:	11 24       	eor	r1, r1
+  34:	1f be       	out	0x3f, r1	; 63
+  36:	cf e9       	ldi	r28, 0x9F	; 159
+  38:	cd bf       	out	0x3d, r28	; 61
+
+0000003a <__do_clear_bss>:
+  3a:	20 e0       	ldi	r18, 0x00	; 0
+  3c:	a0 e6       	ldi	r26, 0x60	; 96
+  3e:	b0 e0       	ldi	r27, 0x00	; 0
+  40:	01 c0       	rjmp	.+2      	; 0x44 <.do_clear_bss_start>
+
+00000042 <.do_clear_bss_loop>:
+  42:	1d 92       	st	X+, r1
+
+00000044 <.do_clear_bss_start>:
+  44:	a5 36       	cpi	r26, 0x65	; 101
+  46:	b2 07       	cpc	r27, r18
+  48:	e1 f7       	brne	.-8      	; 0x42 <.do_clear_bss_loop>
+  4a:	28 d0       	rcall	.+80     	; 0x9c <main>
+  4c:	6a c0       	rjmp	.+212    	; 0x122 <_exit>
+
+0000004e <__bad_interrupt>:
+  4e:	d8 cf       	rjmp	.-80     	; 0x0 <__vectors>
+
+00000050 <adc_setup>:
+  50:	bc 98       	cbi	0x17, 4	; 23
+  52:	39 9a       	sbi	0x07, 1	; 7
+  54:	3e 9a       	sbi	0x07, 6	; 7
+  56:	3d 9a       	sbi	0x07, 5	; 7
+  58:	86 b1       	in	r24, 0x06	; 6
+  5a:	81 68       	ori	r24, 0x81	; 129
+  5c:	86 b9       	out	0x06, r24	; 6
+  5e:	a4 9a       	sbi	0x14, 4	; 20
+  60:	08 95       	ret
+
+00000062 <adc_read>:
+  62:	36 9a       	sbi	0x06, 6	; 6
+  64:	8f eb       	ldi	r24, 0xBF	; 191
+  66:	9d e5       	ldi	r25, 0x5D	; 93
+  68:	01 97       	sbiw	r24, 0x01	; 1
+  6a:	f1 f7       	brne	.-4      	; 0x68 <adc_read+0x6>
+  6c:	00 c0       	rjmp	.+0      	; 0x6e <adc_read+0xc>
+  6e:	00 00       	nop
+  70:	36 99       	sbic	0x06, 6	; 6
+  72:	fe cf       	rjmp	.-4      	; 0x70 <adc_read+0xe>
+  74:	8f eb       	ldi	r24, 0xBF	; 191
+  76:	9d e5       	ldi	r25, 0x5D	; 93
+  78:	01 97       	sbiw	r24, 0x01	; 1
+  7a:	f1 f7       	brne	.-4      	; 0x78 <adc_read+0x16>
+  7c:	00 c0       	rjmp	.+0      	; 0x7e <adc_read+0x1c>
+  7e:	00 00       	nop
+  80:	85 b1       	in	r24, 0x05	; 5
+  82:	90 e0       	ldi	r25, 0x00	; 0
+  84:	08 95       	ret
+
+00000086 <pwm_setup>:
+  86:	b8 9a       	sbi	0x17, 0	; 23
+  88:	83 b7       	in	r24, 0x33	; 51
+  8a:	81 60       	ori	r24, 0x01	; 1
+  8c:	83 bf       	out	0x33, r24	; 51
+  8e:	8f b5       	in	r24, 0x2f	; 47
+  90:	83 60       	ori	r24, 0x03	; 3
+  92:	8f bd       	out	0x2f, r24	; 47
+  94:	8f b5       	in	r24, 0x2f	; 47
+  96:	80 68       	ori	r24, 0x80	; 128
+  98:	8f bd       	out	0x2f, r24	; 47
+  9a:	08 95       	ret
+
+0000009c <main>:
+  9c:	d9 df       	rcall	.-78     	; 0x50 <adc_setup>
+  9e:	f3 df       	rcall	.-26     	; 0x86 <pwm_setup>
+  a0:	84 e6       	ldi	r24, 0x64	; 100
+  a2:	86 bf       	out	0x36, r24	; 54
+  a4:	c1 e0       	ldi	r28, 0x01	; 1
+  a6:	dd df       	rcall	.-70     	; 0x62 <adc_read>
+  a8:	90 93 62 00 	sts	0x0062, r25
+  ac:	80 93 61 00 	sts	0x0061, r24
+  b0:	80 91 61 00 	lds	r24, 0x0061
+  b4:	90 91 62 00 	lds	r25, 0x0062
+  b8:	84 3e       	cpi	r24, 0xE4	; 228
+  ba:	91 05       	cpc	r25, r1
+  bc:	40 f5       	brcc	.+80     	; 0x10e <__stack+0x6f>
+  be:	20 91 61 00 	lds	r18, 0x0061
+  c2:	30 91 62 00 	lds	r19, 0x0062
+  c6:	80 91 63 00 	lds	r24, 0x0063
+  ca:	90 91 64 00 	lds	r25, 0x0064
+  ce:	29 3d       	cpi	r18, 0xD9	; 217
+  d0:	31 05       	cpc	r19, r1
+  d2:	10 f4       	brcc	.+4      	; 0xd8 <__stack+0x39>
+  d4:	01 96       	adiw	r24, 0x01	; 1
+  d6:	08 c0       	rjmp	.+16     	; 0xe8 <__stack+0x49>
+  d8:	20 91 61 00 	lds	r18, 0x0061
+  dc:	30 91 62 00 	lds	r19, 0x0062
+  e0:	2a 3d       	cpi	r18, 0xDA	; 218
+  e2:	31 05       	cpc	r19, r1
+  e4:	28 f0       	brcs	.+10     	; 0xf0 <__stack+0x51>
+  e6:	01 97       	sbiw	r24, 0x01	; 1
+  e8:	90 93 64 00 	sts	0x0064, r25
+  ec:	80 93 63 00 	sts	0x0063, r24
+  f0:	80 91 63 00 	lds	r24, 0x0063
+  f4:	90 91 64 00 	lds	r25, 0x0064
+  f8:	83 3b       	cpi	r24, 0xB3	; 179
+  fa:	91 05       	cpc	r25, r1
+  fc:	10 f0       	brcs	.+4      	; 0x102 <__stack+0x63>
+  fe:	82 eb       	ldi	r24, 0xB2	; 178
+ 100:	90 e0       	ldi	r25, 0x00	; 0
+ 102:	90 93 64 00 	sts	0x0064, r25
+ 106:	80 93 63 00 	sts	0x0063, r24
+ 10a:	86 bf       	out	0x36, r24	; 54
+ 10c:	02 c0       	rjmp	.+4      	; 0x112 <__stack+0x73>
+ 10e:	c0 93 60 00 	sts	0x0060, r28
+ 112:	80 91 60 00 	lds	r24, 0x0060
+ 116:	81 30       	cpi	r24, 0x01	; 1
+ 118:	31 f6       	brne	.-116    	; 0xa6 <__stack+0x7>
+ 11a:	16 be       	out	0x36, r1	; 54
+ 11c:	10 92 60 00 	sts	0x0060, r1
+ 120:	c2 cf       	rjmp	.-124    	; 0xa6 <__stack+0x7>
+
+00000122 <_exit>:
+ 122:	f8 94       	cli
+
+00000124 <__stop_program>:
+ 124:	ff cf       	rjmp	.-2      	; 0x124 <__stop_program>
