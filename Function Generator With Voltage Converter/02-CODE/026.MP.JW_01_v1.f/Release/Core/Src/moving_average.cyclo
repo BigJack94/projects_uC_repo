@@ -1,0 +1,6 @@
+../Core/Src/moving_average.c:40:6:Moving_Average_Init_0	1
+../Core/Src/moving_average.c:51:6:Moving_Average_Init_1	1
+../Core/Src/moving_average.c:62:6:Moving_Average_Init_2	1
+../Core/Src/moving_average.c:78:10:Moving_Average_Compute_0	2
+../Core/Src/moving_average.c:94:10:Moving_Average_Compute_1	2
+../Core/Src/moving_average.c:110:10:Moving_Average_Compute_2	2

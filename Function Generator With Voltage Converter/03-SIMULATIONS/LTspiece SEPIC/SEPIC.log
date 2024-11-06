@@ -1,0 +1,21 @@
+Circuit: * D:\Dokumenty\Projekty, Schematy, Przepisy\026.MP.JW. - Generator Funkcji\05-SYMULACJE\SEPIC\SEPIC.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Dec 07 21:37:19 2023
+Total elapsed time: 0.132 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 10443
+traniter = 10434
+tranpoints = 5217
+accept = 3598
+rejected = 1619
+matrix size = 12
+fillins = 1
+solver = Normal
+Matrix Compiler1: 544 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+

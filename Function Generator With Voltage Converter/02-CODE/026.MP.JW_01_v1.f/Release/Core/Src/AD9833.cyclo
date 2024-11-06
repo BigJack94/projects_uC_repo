@@ -1,0 +1,4 @@
+../Core/Src/AD9833.c:16:6:writeSPI	3
+../Core/Src/AD9833.c:31:6:AD9833_SetWave	4
+../Core/Src/AD9833.c:57:6:AD9833_SetWaveData	3
+../Core/Src/AD9833.c:90:6:AD9833_Init	1
