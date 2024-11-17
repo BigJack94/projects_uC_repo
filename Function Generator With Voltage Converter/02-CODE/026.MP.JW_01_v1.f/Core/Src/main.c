@@ -685,7 +685,7 @@ void switch_managment(void) {
 		if ((timer_3_counter_encoder_sw - encoder_switch_timer
 				>= endoer_hold_times[2])
 				&& (timer_3_counter_encoder_sw - encoder_switch_timer
-						<= endoer_hold_times[3])) //dlugie dlugie
+						<= endoer_hold_times[3])) //very long
 				{
 			if (encoder_switch_double_long_1 == 0) {
 				encoder_switch_double_long_1++;
@@ -695,7 +695,7 @@ void switch_managment(void) {
 		} else if ((timer_3_counter_encoder_sw - encoder_switch_timer
 				>= endoer_hold_times[1])
 				&& (timer_3_counter_encoder_sw - encoder_switch_timer
-						< endoer_hold_times[2])) //dlugie
+						< endoer_hold_times[2])) //long
 				{
 			if (encoder_switch_long_1 == 0) {
 				encoder_switch_long_1++;
@@ -705,7 +705,7 @@ void switch_managment(void) {
 		} else if ((timer_3_counter_encoder_sw - encoder_switch_timer
 				>= endoer_hold_times[0])
 				&& (timer_3_counter_encoder_sw - encoder_switch_timer
-						< endoer_hold_times[1])) //krotkie
+						< endoer_hold_times[1])) //short
 				{
 			if (encoder_switch_short_1 == 0) {
 				encoder_switch_short_1++;
@@ -945,16 +945,15 @@ void oled_wave_generator(void) {
 		SSD1306_Puts("SINE", &Font_6x8, 0);
 		wg_raw_amplitude = 0.55f;
 	}
-
 	else if (wg_wave_mode == 1) {
+		SSD1306_Puts("PWM ", &Font_6x8, 0);
+		wg_raw_amplitude = 3.1;
+	}
+	else if (wg_wave_mode == 2) {
 		SSD1306_Puts("TRI ", &Font_6x8, 0);
 		wg_raw_amplitude = 0.55f;
 	}
-
-	else if (wg_wave_mode == 2) {
-		SSD1306_Puts("PWM ", &Font_6x8, 0);
-		wg_raw_amplitude = 3.1;
-	} else {
+	else {
 		wg_wave_mode = 0;
 		SSD1306_Puts("ERROR", &Font_6x8, 0);
 		wg_raw_amplitude = 0.0f;

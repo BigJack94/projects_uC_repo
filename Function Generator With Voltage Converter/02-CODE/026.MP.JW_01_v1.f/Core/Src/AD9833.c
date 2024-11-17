@@ -36,13 +36,13 @@ void AD9833_SetWave(uint16_t Wave){
     HAL_GPIO_WritePin(AD9833PORT,AD9833SS,GPIO_PIN_SET);
     WKNOWN=0;
     break;
-  case 2:
+  case 1:
      HAL_GPIO_WritePin(AD9833PORT,AD9833SS,GPIO_PIN_RESET);
     writeSPI(0x2028); // Value for Square Wave
     HAL_GPIO_WritePin(AD9833PORT,AD9833SS,GPIO_PIN_SET);
     WKNOWN=1;
     break;
-  case 1:
+  case 2:
         HAL_GPIO_WritePin(AD9833PORT,AD9833SS,GPIO_PIN_RESET);
     writeSPI(0x2002); // Value for Triangle Wave
     HAL_GPIO_WritePin(AD9833PORT,AD9833SS,GPIO_PIN_SET);
