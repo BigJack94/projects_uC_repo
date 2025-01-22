@@ -29,7 +29,7 @@ HISTORY OF SCHEMA VERSIONS:
 026.MP.JW_v2.1
 026.MP.JW_v2.2
 026.MP.JW_v2.3
-026.MP.JW_v2.3.1 - current version 
+026.MP.JW_v2.3.1 - current version (but only generator, converter is in version 2.1)
 026.MP.JW_v2.4 - new version of hardware (only converter section)
 
 The electrical scheme was modified during testing (software and hardware) and measurements.
